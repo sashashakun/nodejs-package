@@ -1,5 +1,4 @@
-// @flow
 
-import half from './half';
+import main from './main';
 
-export default half;
+export default main;
