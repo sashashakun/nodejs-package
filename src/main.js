@@ -14,7 +14,6 @@ export default (city = 'london') => axios
     }
 
     console.log('No such city in our service, sorry. Try again!');
-    
     return undefined;
   })
   .catch(e => console.log(e));

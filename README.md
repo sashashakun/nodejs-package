@@ -1,5 +1,6 @@
 Hexlet testing workshop CLi
 
+[![Build Status](https://travis-ci.org/sashashakun/weather.svg?branch=master)](https://travis-ci.org/sashashakun/weather)
 
 ## Setup
 
