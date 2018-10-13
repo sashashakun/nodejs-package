@@ -12,8 +12,9 @@ export default (city = 'london') => axios
             && weatherData.consolidated_weather[0].weather_state_name)
         .catch(e => console.log(e));
     }
-    
+
     console.log('No such city in our service, sorry. Try again!');
+    
     return undefined;
   })
   .catch(e => console.log(e));
