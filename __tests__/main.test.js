@@ -12,7 +12,7 @@ describe('#main()', () => {
       .reply(200, { consolidated_weather: [{ weather_state_name: 'Showers' }] });
   });
 
-  describe('when city data is exist in the service', () => {
+  describe('when city data exists in the service', () => {
     it('returns weather', () => main('london').then((data) => {
       expect(data).toBe('Showers');
     }));
