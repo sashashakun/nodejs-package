@@ -33,6 +33,7 @@
   "dependencies": {
     "axios": "^0.18.0",
     "axios-mock-adapter": "^1.15.0",
+    "babel-polyfill": "^6.26.0",
     "commander": "^2.19.0",
     "gulp": "^4.0.0",
     "nock": "^10.0.1"
@@ -46,7 +47,6 @@
     "babel-core": "^7.0.0-0",
     "babel-eslint": "^9.0.0",
     "babel-jest": "^23.6.0",
-    "babel-polyfill": "^6.26.0",
     "debug": "^4.0.1",
     "eslint": "^5.7.0",
     "eslint-config-airbnb-base": "^13.1.0",
