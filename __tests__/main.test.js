@@ -13,8 +13,9 @@ describe('#main()', () => {
   });
 
   describe('when city data exists in the service', () => {
-    it('returns weather', () => main('london').then((data) => {
+    it('returns weather',async () => {
+      const data = await main('london');
       expect(data).toBe('Showers');
-    }));
+    });
   });
 });
