@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-
+import 'babel-polyfill';
 import main from '..';
 import program from 'commander';
 
